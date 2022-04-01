@@ -1,5 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import About from "./components/About";
+import ContactForm from "./components/Contact";
+import MyWork from "./components/MyWork";
+import Nav from "./components/Nav";
+import Resume from "./components/Resume";
 
 function App() {
   return (
