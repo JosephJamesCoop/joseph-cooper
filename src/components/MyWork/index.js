@@ -16,21 +16,21 @@ function MyWork() {
 
       <h2>Group Projects</h2>
       <div> 
-        <a href="https://www.linkedin.com/in/JosephJamesCooper7823/">
-          <img src={AllergyFree} alt="Joseph Cooper with his wife Erin and their two dogs, Rosie and Rango." />
+        <a href="https://afk-network.herokuapp.com/">
+          <img src={AllergyFree} alt="Preview of The Allergy Free Kitchen App" />
         </a>
         <h3>
-          <a href="https://www.linkedin.com/in/JosephJamesCooper7823/">
+          <a href="https://github.com/JosephJamesCoop/the-allergy-free-kitchen">
             The Allergy Free Kitchen{" "}
           </a>
         </h3>
       </div>
       <div> 
-        <a href="https://www.linkedin.com/in/JosephJamesCooper7823/">
-          <img src={Portland} alt="Joseph Cooper with his wife Erin and their two dogs, Rosie and Rango." />
+        <a href="https://josephjamescoop.github.io/your-portland-itinerary/">
+          <img src={Portland} alt="Preview of Your Portland Itinerary App" />
         </a>
         <h3>
-          <a href="https://www.linkedin.com/in/JosephJamesCooper7823/">
+          <a href="https://github.com/JosephJamesCoop/your-portland-itinerary">
             Your Portland Itinerary{" "}
           </a>
         </h3>
@@ -39,7 +39,7 @@ function MyWork() {
       <h2>Individual Work</h2>
       <div> 
         <a href="https://deep-thoughts.herokuapp.com/">
-          <img src={Thoughts} alt="Joseph Cooper with his wife Erin and their two dogs, Rosie and Rango." />
+          <img src={Thoughts} alt="Preview of Deep Thoughts App." />
         </a>
         <h3>
           <a href="https://github.com/JosephJamesCoop/deep-thoughts">
@@ -49,7 +49,7 @@ function MyWork() {
       </div>
       <div> 
         <a href="https://in-hand-budget-tracker.herokuapp.com/">
-          <img src={Budget} alt="Joseph Cooper with his wife Erin and their two dogs, Rosie and Rango." />
+          <img src={Budget} alt="Preview of In Hand Budget Tracker App." />
         </a>
         <h3>
           <a href="https://github.com/JosephJamesCoop/in-hand-budget-tracker">
