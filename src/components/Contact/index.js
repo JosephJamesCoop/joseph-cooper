@@ -45,7 +45,7 @@ function Contact() {
           </p>
         </h3>
       </div>
-      <h1>Whateve it may be, Lets connect!</h1>
+      <h1>Whateve it may be though, Lets connect!</h1>
     </section>
   );
 }
