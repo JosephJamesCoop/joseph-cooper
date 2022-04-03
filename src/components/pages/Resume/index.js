@@ -1,4 +1,4 @@
-import ResumePDF from "../../assets/resume/JosephCooperResume.pdf";
+import ResumePDF from "../../../assets/resume/JosephCooperResume.pdf";
 
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -29,14 +29,18 @@ function Resume() {
   return (
     <>
       <section>
+        <h2 className="top download">
         <a href={ResumePDF} download>
           Click to download
+          <p className='mobile'>*Looks like you're using a smaller screen. Why don't you click above to download for abetter user experience!</p>
         </a>
+        </h2>
       </section>
+      <div className='pdf'>
       <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>
-
+      </div>
       <div>
         <button type="button" disabled={pageNumber <= 1} onClick={front}>
           Front

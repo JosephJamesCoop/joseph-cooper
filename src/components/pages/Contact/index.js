@@ -43,14 +43,14 @@ function Contact() {
       </div>
       <div>
         <h3>
-          <p className=''>
+          <p className='astrict'>
             *(I only make exceptions for my grandma with snail mail cause she
             slips $20 in my birthday cards)
           </p>
         </h3>
       </div>
       <br></br>
-      <h1>Whatever it may be though, Lets connect!</h1>
+      <h1>Whatever it may be though, LETS CONNECT!</h1>
     </section>
   );
 }

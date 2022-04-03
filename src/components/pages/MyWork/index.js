@@ -1,10 +1,10 @@
 import React from "react";
-import AllergyFree from "../../assets/group/AllergyFree.jpg";
-import Portland from "../../assets/group/Portland.jpg";
-import Thoughts from "../../assets/individual/Thoughts.jpg";
-import Budget from "../../assets/individual/Budget.jpg";
-import RegEx from "../../assets/snippets/RegEx.jpg";
-import Ecomm from "../../assets/snippets/E-Commerce.jpg";
+import AllergyFree from "../../../assets/group/AllergyFree.jpg";
+import Portland from "../../../assets/group/Portland.jpg";
+import Thoughts from "../../../assets/individual/Thoughts.jpg";
+import Budget from "../../../assets/individual/Budget.jpg";
+import RegEx from "../../../assets/snippets/RegEx.jpg";
+import Ecomm from "../../../assets/snippets/E-Commerce.jpg";
 
 function MyWork() {
   return (

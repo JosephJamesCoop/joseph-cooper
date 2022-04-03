@@ -186,8 +186,13 @@ nav  li {
  .foot {
    font-family: arial;
    margin: 100px 35px 25px 35px;
-
  }
+
+ .pdf {
+  font-family: arial;
+  margin: 100px 35px 25px 35px;
+}
+
 a {
   text-decoration-line: none;
 	border-radius: 5px;
@@ -197,6 +202,18 @@ a {
 	margin-left: -2px;
 	margin-right: -2px;
 	
+}
+.align {
+  margin-left: 15px;
+}
+
+.download {
+  margin: 0 35px -50px 30px;
+}
+
+.mobile {
+  font-size: 0rem;
+  color: var(--secondary);
 }
 
 a:hover {
@@ -209,6 +226,14 @@ li:hover {
   color: var(--tertiary);
 }
 
+
+.mx-4:hover {
+  color: var(--primary)
+}
+
+.icon:hover {
+ height: 75px;
+}
 .navActive {
   color: var(--tertiary);
 }
@@ -219,6 +244,10 @@ li:hover {
   }
   .theLinks {
     margin: 50px 10px 50px 10px;
+  }
+  .pdf {
+    width: 750px;
+    height: auto;
   }
 }
 
@@ -244,4 +273,14 @@ li:hover {
   .paragraph {
     font-size: 1.3rem;
    }
+
+   .pdf {
+    width: 500px;
+    height: auto;
+  }
+
+  .mobile {
+    font-size: .75rem;
+    color: var(--primary);
+  }
 }
