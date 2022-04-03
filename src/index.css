@@ -183,7 +183,11 @@ nav  li {
   text-decoration: none;
   color: var(--tertiary);
 }
+ .foot {
+   font-family: arial;
+   margin: 100px 35px 25px 35px;
 
+ }
 a {
   text-decoration-line: none;
 	border-radius: 5px;

@@ -5,6 +5,7 @@ import ContactMe from "./components/Contact";
 import MyWork from "./components/MyWork";
 import Nav from "./components/Nav";
 // import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <><MyWork></MyWork></>
       {/* <><Resume></Resume></> */}
     </main>
+    <Footer></Footer>
   </div>
   );
 }
