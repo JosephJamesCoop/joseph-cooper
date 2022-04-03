@@ -7,10 +7,10 @@ function Nav() {
     <header className="flex-row px-1">
       <h2>
       <ul className="flex-row">
-          <li className="mx-2">
+          <li className="mx-1">
         <img className='icon' src={Profile} alt="Joseph Cooper" /> {" "}
           </li>
-          <li className="mx-2 mx-3">
+          <li className="mx-1 mx-2">
           Joseph James Craig Cooper
           </li> 
         </ul>
@@ -19,16 +19,16 @@ function Nav() {
       <nav>
         <h5>
         <ul className="flex-row">
-          <li className="mx-2 mx-4">
+          <li className="mx-1 mx-3">
             About Me
           </li>
-          <li className="mx-2 mx-4">
+          <li className="mx-1 mx-3">
             Contact Me
           </li>
-          <li className="mx-2 mx-4">
+          <li className="mx-1 mx-3">
             My Work
           </li>
-          <li className="mx-2 mx-4">
+          <li className="mx-1 mx-3">
             Resume
           </li>
         </ul>

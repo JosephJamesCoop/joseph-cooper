@@ -6,16 +6,8 @@ main {
 }
 :root {
   --primary: #ffffff;
-
-  --secondary: #d36300bd;
   --tertiary: #d36300bd;
-  
-  --dark: #000000;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
+  --secondary: #000000;
 }
 
 * {
@@ -34,7 +26,7 @@ body {
   line-height: 1.75;
   font-size: 30px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--secondary);
   color: var(--primary);
 
 }
@@ -79,21 +71,9 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
 }
-.flex {
-  display: flex;
-}
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
 
 header {
-  background: var(--dark);
+  background: var(--secondary);
 }
 
 header a {
@@ -108,24 +88,6 @@ span[role="img"] {
   cursor: default;
 }
 
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
-
 li {
   list-style: none;
 }
@@ -138,86 +100,28 @@ nav  li {
   cursor: pointer;
 }
 
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
 .mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
 
+.mx-2 {
+  margin-right: 150px;
+  margin-left: 10px
+}
+
 .mx-3 {
-  margin-right: 200px
-}
-
-.mx-4 {
-  margin-top: 25px
-}
-
-
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
+  margin: 25px 15px 10px 15px;
 }
 
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
 }
 
 .card {
@@ -229,6 +133,10 @@ textarea {
   width: auto;
   height: 50px;
   cursor: pointer;
+}
+
+.flex {
+  display: flex;
 }
 
 .myWork {
@@ -258,7 +166,7 @@ textarea {
 
 .paragraph {
   background-color: var(--primary);
-  color: var(--dark);
+  color: var(--secondary);
   border: solid;
   border-width: 10px;
   border-color: var(--primary);
@@ -276,10 +184,11 @@ textarea {
 
 .theLinks:hover {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 a {
+  text-decoration-line: none;
 	border-radius: 5px;
 	color: var(--primary);
 	font-weight: 600;
@@ -291,16 +200,16 @@ a {
 
 a:hover {
   text-decoration-line: none;
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 li:hover {
   text-decoration-line: none;
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 @media screen and (max-width: 980px ) {
