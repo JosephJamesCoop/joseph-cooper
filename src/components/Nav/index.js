@@ -6,28 +6,33 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h2>
-        <p>
-          
-          <img src={Profile} alt="Preview of The Allergy Free Kitchen App" /> {" "}
-            
+      <ul className="flex-row">
+          <li className="mx-2">
+        <img className='icon' src={Profile} alt="Joseph Cooper" /> {" "}
+          </li>
+          <li className="mx-2 mx-3">
           Joseph James Craig Cooper
-        </p>
+          </li> 
+        </ul>
+  
       </h2>
       <nav>
+        <h5>
         <ul className="flex-row">
-          <li className="mx-2">
+          <li className="mx-2 mx-4">
             About Me
           </li>
-          <li className="mx-2">
+          <li className="mx-2 mx-4">
             Contact Me
           </li>
-          <li className="mx-2">
+          <li className="mx-2 mx-4">
             My Work
           </li>
-          <li className="mx-2">
+          <li className="mx-2 mx-4">
             Resume
           </li>
         </ul>
+        </h5>
       </nav>
     </header>
   );

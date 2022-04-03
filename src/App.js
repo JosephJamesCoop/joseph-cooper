@@ -4,7 +4,7 @@ import About from "./components/About";
 import ContactMe from "./components/Contact";
 import MyWork from "./components/MyWork";
 import Nav from "./components/Nav";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <><About></About></>
       <><ContactMe></ContactMe></>
       <><MyWork></MyWork></>
-      <><Resume></Resume></>
+      {/* <><Resume></Resume></> */}
     </main>
   </div>
   );
