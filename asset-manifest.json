@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.9c4c5a06.css",
+    "main.js": "/photo-port/static/js/main.103286d8.js",
+    "static/js/787.e443ba43.chunk.js": "/photo-port/static/js/787.e443ba43.chunk.js",
+    "static/media/Profile.png": "/photo-port/static/media/Profile.afa370010e74bbd02dff.png",
+    "static/media/Portland.jpg": "/photo-port/static/media/Portland.c224fa90d50f4b7b6c36.jpg",
+    "static/media/AllergyFree.jpg": "/photo-port/static/media/AllergyFree.d6b62c0a77379e03dcb7.jpg",
+    "static/media/Family.jpg": "/photo-port/static/media/Family.3ed7bcfa750ad5609f52.jpg",
+    "static/media/Thoughts.jpg": "/photo-port/static/media/Thoughts.18a1d26cdc4607edad16.jpg",
+    "static/media/Budget.jpg": "/photo-port/static/media/Budget.f88f1347d67d6ee3caf9.jpg",
+    "static/media/JosephCooperResume.pdf": "/photo-port/static/media/JosephCooperResume.ebc48adbbf3a642e9122.pdf",
+    "index.html": "/photo-port/index.html",
+    "main.9c4c5a06.css.map": "/photo-port/static/css/main.9c4c5a06.css.map",
+    "main.103286d8.js.map": "/photo-port/static/js/main.103286d8.js.map",
+    "787.e443ba43.chunk.js.map": "/photo-port/static/js/787.e443ba43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c4c5a06.css",
+    "static/js/main.103286d8.js"
+  ]
+}
