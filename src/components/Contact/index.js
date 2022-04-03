@@ -9,6 +9,7 @@ function Contact() {
         me onto your team, wanting to give or recieve some advice and input, or just want to make a new friend. Get in touch with me
         through any of the following!
       </p>
+      <div className="flex">
       <div>
         <h3 className='theLinks'>
           <a href="https://www.linkedin.com/in/JosephJamesCooper7823/">
@@ -23,6 +24,8 @@ function Contact() {
           </a>
         </h3>
       </div>
+      </div>
+      <div className="flex">
       <div>
         <h3 className='theLinks'>
           <a href="https://app.slack.com/client/T02HY0V6YRJ/D02KDE2G9SR/user_profile/U02KGDXNKFV">
@@ -37,14 +40,16 @@ function Contact() {
           </a>
         </h3>
       </div>
+      </div>
       <div>
         <h3>
-          <p className='theLinks'>
+          <p className=''>
             *(I only make exceptions for my grandma with snail mail cause she
             slips $20 in my birthday cards)
           </p>
         </h3>
       </div>
+      <br></br>
       <h1>Whatever it may be though, Lets connect!</h1>
     </section>
   );

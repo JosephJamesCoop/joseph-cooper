@@ -24,7 +24,7 @@ body {
   padding: 0;
   font-weight: 600;
   line-height: 1.75;
-  font-size: 30px;
+  font-size: 1.25rem;
   letter-spacing: .1em;
   background: var(--secondary);
   color: var(--primary);
@@ -65,11 +65,6 @@ h5 {
 
 h6 {
   font-size: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
 }
 
 header {
@@ -168,18 +163,20 @@ nav  li {
   background-color: var(--primary);
   color: var(--secondary);
   border: solid;
-  border-width: 10px;
+  border-width: 30px;
   border-color: var(--primary);
   margin: 10px;
   margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .theLinks {
-  margin: 50px 10px 50px 10px;
+  margin: 50px 200px 50px 10px;
 }
 
 .astrict{
   margin: 0px 10px 20px 10px;
+  font-size: medium;
 }
 
 .theLinks:hover {
@@ -213,15 +210,16 @@ li:hover {
 }
 
 @media screen and (max-width: 980px ) {
-  .paragraph {
-    font-size: 35px;
-   }
+   .flex {
+    display: inline-block;
+  }
+  .theLinks {
+    margin: 50px 10px 50px 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
-  .flex {
-    display: inline-block;
-  }
+  
 
   .myWork {
     width: auto;
@@ -240,6 +238,6 @@ li:hover {
   }
 
   .paragraph {
-    font-size: 20px;
+    font-size: 1.3rem;
    }
 }
