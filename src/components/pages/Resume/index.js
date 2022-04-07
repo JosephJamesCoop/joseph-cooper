@@ -1,4 +1,4 @@
-import ResumePDF from "../../../assets/resume/JosephCooperResume.pdf";
+import ResumePDF from "../../../assets/resume/Joseph-Cooper-Resume.pdf";
 
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
