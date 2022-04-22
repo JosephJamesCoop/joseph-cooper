@@ -1,6 +1,6 @@
 import React from "react";
 import AllergyFree from "../../../assets/group/AllergyFree.jpg";
-import Portland from "../../../assets/group/Portland.jpg";
+import MallDirect from "../../../assets/group/MallDirect.jpg";
 import Thoughts from "../../../assets/individual/Thoughts.jpg";
 import Budget from "../../../assets/individual/Budget.jpg";
 import RegEx from "../../../assets/snippets/RegEx.jpg";
@@ -17,6 +17,20 @@ function MyWork() {
 
       <h2 className="top">Group Projects</h2>
       <div className="flex">
+      <div className="myWork">
+          <a href="https://mall-direct.herokuapp.com/">
+            <img
+              className="myWork"
+              src={MallDirect}
+              alt="Preview of Mall Direct App"
+            />
+          </a>
+          <h5 className="left">
+            <a href="https://github.com/knharman/mall-directory">
+              Mall Direct{" "}
+            </a>
+          </h5>
+        </div>
         <div className="myWork">
           <a href="https://afk-network.herokuapp.com/">
             <img
@@ -31,20 +45,7 @@ function MyWork() {
             </a>
           </h5>
         </div>
-        <div className="myWork">
-          <a href="https://josephjamescoop.github.io/your-portland-itinerary/">
-            <img
-              className="myWork"
-              src={Portland}
-              alt="Preview of Your Portland Itinerary App"
-            />
-          </a>
-          <h5 className="left">
-            <a href="https://github.com/JosephJamesCoop/your-portland-itinerary">
-              Your Portland Itinerary{" "}
-            </a>
-          </h5>
-        </div>
+      
       </div>
       <h2 className="top">Individual Work</h2>
       <div className="flex">
